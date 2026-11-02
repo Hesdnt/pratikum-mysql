@@ -1,0 +1,20 @@
+{
+  "name": "express-mysql-lab",
+  "version": "1.0.0",
+  "description": "Modul Praktikum 3 Pemrograman Web - CRUD Produk (Express, EJS, MySQL, Prepared Statements)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "express": "^4.22.3",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
